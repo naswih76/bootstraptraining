@@ -187,7 +187,18 @@ body
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+tst1
+{
+    animation: slide 1s linear;
+}
+@keyframes slide{
+    from{
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
 .testimonials img
 {
     height: 60px;
