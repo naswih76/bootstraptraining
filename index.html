@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
   <section id="nav-bar">
@@ -44,12 +45,12 @@
 <section id="banner">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-right">
         <p class="promo-title">BEST DIGITAL AGENCY</p>
         <P>Subscribe Easy tutorial youtube channel to watch more videos on website development, digital marketing, wordpress and graphic design.</P>
         <a href="#"><img src="image/play.png" class="play-btn">Watch Tutorials</a>
       </div>
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 text-center" data-aos="fade-left">
         <img src="image/8294.jpg" class="img-fluid">
       </div>
     </div>
@@ -61,8 +62,8 @@
 
 <section id="services">
   <div class="container text-center">
-    <h1 class="title">What we do?</h1>
-    <div class="row text-center">
+    <h1 class="title" data-aos="zoom-in">What we do?</h1>
+    <div class="row text-center" data-aos="fade-up">
       <div class="col-md-4 services">
         <img src="image/5138237.jpg" class="service-img img-fluid">
         <h4>Growth marketing</h4>
@@ -79,7 +80,7 @@
         <P>Subscribe Easy tutorial youtube channel to watch more videos on website development, digital marketing, wordpress and graphic design.</P>
       </div>
     </div>
-    <button type="button" class="btn btn-primary">All Services</button>
+    <button type="button" class="btn btn-primary" data-aos="fade-up">All Services</button>
   </div>
 </section>
 
@@ -87,9 +88,9 @@
 
 <section id="about-us">
   <div class="container">
-    <h1 class="title text-center">WHY CHOOSE US ?</h1>
+    <h1 class="title text-center" data-aos="zoom-in">WHY CHOOSE US ?</h1>
     <div class="row">
-      <div class="col-md-6 about-us">
+      <div class="col-md-6 about-us" data-aos="fade-up-right">
         <p class="about-title">Why we are different</p>
         <ul>
           <li>Believe in doing business with honestly</li>
@@ -101,7 +102,7 @@
           <li>Believe in doing business with honestly</li>
         </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up-left">
         <img src="image/4204968.jpg" class="img-fluid">
       </div>
     </div>
@@ -112,14 +113,14 @@
 
 <section id="testimonials">
   <div class="container">
-    <h1 class="title text-center">WHAT CLIENTs SAY </h1>
+    <h1 class="title text-center" data-aos="zoom-in">WHAT CLIENTs SAY </h1>
     <div class="row offset-2">
-      <div class="col-md-5 testimonials tst1">
+      <div class="col-md-5 testimonials tst1" data-aos="flip-up">
         <P>Subscribe Easy tutorial youtube channel to watch more videos on website development, digital marketing, wordpress and graphic design.</P>
         <img src="image/52233.jpg" class="img-fluid">
         <p class="user-details"><b>Ahammed</b></p>
       </div>
-      <div class="col-md-5 testimonials tst2">
+      <div class="col-md-5 testimonials tst2" data-aos="flip-up">
         <P>Subscribe Easy tutorial youtube channel to watch more videos on website development, digital marketing, wordpress and graphic design.</P>
         <img src="image/52233.jpg" class="img-fluid">
         <p class="user-details"><b>Hinas kk</b></p>
@@ -142,5 +143,14 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<!-- our aos data -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 200,
+    duration: 2000,
+  });
+</script>
 </body>
 </html>
